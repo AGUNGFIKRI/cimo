@@ -1,0 +1,19 @@
+/* Navbar styles */
+.navbar-nav .nav-link {
+  color: #333; /* Default text color */
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth transition */
+}
+
+.navbar-nav .nav-link:hover {
+  color: white; /* Text color on hover */
+  background-color: #ffb6c1; /* Pink background on hover */
+  border-radius: 5px; /* Rounded corners for hover effect */
+  transform: scale(1.1); /* Slight zoom effect */
+}
+
+.navbar-nav .nav-link:active {
+  color: white; /* Text color on click */
+  background-color: #ff69b4; /* Bright pink background on click */
+  border-radius: 5px; /* Rounded corners for click effect */
+  transform: rotate(5deg); /* Fun rotation effect */
+}
